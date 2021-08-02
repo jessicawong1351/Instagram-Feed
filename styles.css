@@ -1,9 +1,36 @@
 body{
-    background: gray;
+    background: green;
+    margin: 0;
+}
+.Title{
+     color: green;
 }
 header{
     background: white;
+    padding: 10px;
+}
+header h1{
+    background-color: teal;
+    margin:0;
 }
 div.post{
     background: white;
+}
+div.post img{
+    width: 100%;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display:inline-block;
+    width: 20%;
+}
+div.post h2, div.post p{
+    padding: 10px;
+}
+div.container{
+    width: 600px;
+    margin: auto;
 }
